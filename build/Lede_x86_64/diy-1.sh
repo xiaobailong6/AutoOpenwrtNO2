@@ -19,7 +19,8 @@ git clone https://github.com/garypang13/luci-app-eqos.git package/lean/luci-app-
 #git clone https://github.com/xiaobailong6/openwrt-packages/tree/master/luci-app-passwall package/lean/luci-app-passwall  #passwall出国软件
 #git clone https://github.com/xiaobailong6/small package/lean/package  #passwall出国软件配套
 #svn co https://github.com/xiaobailong6/openwrt-packages/tree/master/luci-app-passwall package/lean/luci-app-passwall  #passwall出国软件
-#svn co https://github.com/xiaobailong6/small package/lean/package  #passwall出国软件配套
+svn co https://github.com/xiaobailong6/small package/lean/package  #passwall出国软件配套
+
 #svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall package/lean/luci-app-passwall  #passwall出国软件
 #svn co https://github.com/xiaorouji/openwrt-package/trunk/package package/lean/package  #passwall出国软件配套
 git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff  #关机（增加关机功能）
