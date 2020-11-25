@@ -5,6 +5,8 @@
 # 使用源码自带ShadowSocksR Plus+出国软件
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 
+# 使用源码自带ShadowSocksR Plus+出国软件
+sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 #添加自定义插件链接（自己想要什么就github里面搜索然后添加）
 git clone https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy  #主题-rosy
 git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/lean/luci-theme-edge  #主题-edge
@@ -21,6 +23,7 @@ svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwa
 svn co https://github.com/xiaorouji/openwrt-package/trunk/package package/lean/package  #passwall出国软件配套
 svn co https://github.com/xiaorouji/openwrt-package/trunk/others package/lean/others #其他的插件
 git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff  #关机（增加关机功能）
+git clone https://github.com/rufengsuixing/luci-app-adguardhome package/lean/luci-app-adguardhome #adguardhome去广告插件
 
 #git clone https://github.com/xiaobailong6/openwrt-filebrowser.git package/lean/luci-app-filebrowser #文件浏览器
 
